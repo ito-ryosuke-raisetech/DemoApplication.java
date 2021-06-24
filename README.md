@@ -28,4 +28,33 @@ public class HelloController {
 		 return"index.html";
 	 }
 
+//index.html
+Hello World
+
+//NewFile.html
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Hello</title>
+</head>
+<body>
+  <h1>Hello World</h1>
+</body>
+</html>
+
+//DemoApplicationTests.java
+package com.example.demo;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class DemoApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
 }
+
